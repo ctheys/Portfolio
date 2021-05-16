@@ -1,0 +1,202 @@
+/*Navigation*/ 
+
+.navbar {
+    background-color:white;
+    height: fit-content;
+}
+.nav-item a {
+    text-decoration: none;
+    font-family: 'Merriweather';
+    color: #59656F;
+}
+
+.nav-item a:hover {
+    color: #DC0073;  
+}
+.navbar p {
+    color: #59656F;
+    font-weight:500;
+    font-size: 60px;
+    font-family: 'montserrat';
+    letter-spacing: 16px;
+}
+
+/*Hero*/ 
+.Hero {
+    background-color: #F1F1F1;
+    padding: 5vw;
+}
+.Hero h1 {
+    color: #FFA700;
+    text-align: center;
+    font-size: 80px;
+    font-style: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+.Hero h2 {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Merriweather';
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.APWF {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "problem timeline";
+}  
+.problem { 
+    grid-area: problem; 
+}
+.title h6, .timeline h6 {
+    color: #3BD2E9;
+    font-style: bold;
+    font-size: 20px;
+    font-family: 'merriweather';
+}
+.title p, .timeline p {
+    color: black;
+    font-size: 16px;
+    font-family: 'merriweather'; 
+}
+.timeline { 
+    grid-area: timeline; 
+    margin-left: 5vw;
+}
+
+/*Sommaire */
+.sommaire {
+    background-color: #FFCE00;
+    padding: 2vw;
+}
+.sommaireTxt {
+    color: #00B1E3;
+    text-align: center;
+    font-family: 'merriweather';
+    font-size: 20px;
+}
+.nav-link {
+    color: #3D5A80;
+    text-align: center;
+    font-family: 'merriweather';
+    font-size: 16px;
+}
+
+/*Case Study*/
+.caseStudy {
+    padding: 5vw;
+}
+.part1Title h2, .part2Title h2, .part3Title h2, .part4Title h2, .part5Title h2, .part6Title h2 {
+    color: #FFA700;
+    text-align: center;
+    font-family: 'merriweather';
+    font-size: 25px;
+}
+
+.part1Title p, .part2Title p, .part3Title p, .part4Title p, .part5Title p {
+    color: #59656F;
+    text-align: center;
+    font-family: 'merriweather';
+    font-size: 18px;
+}
+
+.txtHighlight {
+    background-color: #F4E4C6;
+    padding: 2vw;
+}
+.part1Txt p, .part2Txt p, .part3Txt p, .part4Txt p, .part5Txt p, .part6Txt p {
+    color: black;
+    text-align: justify;
+    font-family: 'merriweather';
+    font-size: 18px;
+    margin-top: 3vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+.heuristic, .competAnalys, .persona, .story, .userFlow, .lowireframe, .midwireframe, .alteration, .hifi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vw;;
+}
+
+.column {
+    float: center;
+    width: 40%;
+    margin-left: 7vw;
+    margin-bottom: 5vw;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    padding: 16px 40px;
+    border-radius: 100px;
+    background-color: #145a90;
+    color: white;
+    font-family: 'merriweather';
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.8px;
+    text-indent: 0px;
+}
+
+.div-block-46 {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/*footer*/
+.footer {
+    height: 20vw;
+    background-color: #DC0073;
+}
+
+.getInTouch {
+    color: white;
+    font-family: 'merriweather';
+    font-size: 50px;
+    text-align: center;
+    padding: 5%;
+}
+
+.navbarCopyright {
+    background-color: #DC0073;
+}
+.copyright {
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+.icon {
+    padding: 20px;
+}
+
+.iconsLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

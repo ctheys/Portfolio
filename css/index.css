@@ -1,242 +1,237 @@
 /*Navigation*/ 
+
+.navbar {
+    background-color:#F9DCDC;
+    height: fit-content;
+}
 .nav-item a {
-    color: black;
     text-decoration: none;
-}
-
-.navbar {
-    background-color: white;
-}
-
-.logo a {
-    color: rgb(193, 124, 116);
-}
-
-.navbar {
-    background-color: white;
-}
-.nav-item a {
     font-family: 'Merriweather';
-    color: #153B50;
+    color: #59656F;
 }
 
 .nav-item a:hover {
-    color: #CC8B86;  
+    color: #DC0073;  
+}
+.navbar p {
+    color: #59656F;
+    font-weight:500;
+    font-size: 60px;
+    font-family: 'montserrat';
+    letter-spacing: 16px;
 }
 
 /*Hero*/
 
 .presentation {
-    background-color: #CC8B86;
+    height: 40vw;
+    background-color: #F9DCDC;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "About-Me PhotoAboutMe";
+}
+.ellipse {
+    max-width: 40vw;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
-.about {
-    margin-top: 150px;
-    margin-bottom: 150px;
-    margin-left: 300px;
-    margin-right: 300px;
+.About-Me h1 { 
+    grid-area: About-Me; 
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 5%;
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'merriweather';
     font-weight: 400;
     line-height: 100px;
-    color: #FFFEEB;
+    color: #59656F;
+    line-height: 1.6;
+    vertical-align: middle;
 }
-
-/*Case Studies*/ 
-.section-width-80 {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.project_1 {
-    background-image: url("../images/Reelii.png");
-    background-size: cover;
-    min-height: 400px;
-}
-
-.project_2 {
-    background-image: url("../images/APWF.png");
-    background-size: cover;
-    min-height: 400px;
-}
-.project_3 {
-    background-image: url("../images/Navy.png");
-    background-size: cover;
-    min-height: 400px;
-}
-.project_logo {
-    width: 200px;
-    margin: 20px;
-}
-.bg-green h2 {
-    font-size: 3rem;
-    font-weight: 900;
-    color:#FFFEEB;
-    font-family: 'Merriweather';
-}
-.bg-green button {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
-.bg-green .card {
-    margin: 30px 0px;
-    border: none;
-}
-
-.bg-green .project-text h3 {
-    font-weight: 700;
-}
-.project-text {
-    padding: 20px 20px 50px 20px;
-}
-.leading-text {
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-}
-
-.project-text {
-    padding: 20px 20px 50px 20px;
-}
-
-.bg-green .project-text h3 {
-    font-weight: 700;
-}
-
-.leading-text {
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-.reelii h2 {
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: #2140C9;
-    border-bottom: 1px solid #2140C9;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-}
-.reelii .mid-blue-bg h2 {
+.btnHero {
+    background-color: #DC0073;
     color: white;
-    border-bottom: 1px solid white;
-    padding-bottom: 20px;
-    margin: 40px 0px;
-    
-}
-.reelii h3 {
-    font-size: 1.6rem;
-    font-weight: 200;
-    letter-spacing: 0.05rem;
-    margin-top: 20px;
-}
-.reelii h4 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-top: 20px;
-}
-.beyond-study .intro {
-    padding: 30px;
-    background-image: url(../images/hero-bg.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: top;
-    min-height: 500px;
-}
-.mid-blue-bg {
-    background-color: #2140C9;
-    color: white;
-}
-.final {
-    background-image: url(../images/bg-final.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
-    min-height: 500px;
-}
-/*section .beyondLogo {
-    width: 200px;
-    margin: 30px 0px;
-}*/
-.section-width-60 {
-    width: 60%;
-    margin: 0 auto;
-}
-.section-width-80 {
-    width: 80%;
-    margin: 0 auto;
-}
-section .desktop-mobile-img {
-    margin-bottom: 0px;
-}
-.project-info {
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    margin-bottom: 40px;
-
-}
-.inline-block {
-    display: inline-block;
-}
-
-section .insight {
-    background-color: #E6F1FD;
-    padding: 20px;
-    margin: 30px 0px;
-}
-.section-padding {
-    padding: 5% 0px;
-}
-.reelii img {
-    width: 100%;
-    margin: 30px 0px;
-}
-.reelii #phase-4 .card {
-    border: none;
-    background-color: transparent;
-}
-.reelii .card img {
-    margin: 0px;
-}
-
-
-/*background colors*/
-
-.bg-purple {
-    background-color:#CC8B86;
-}
-.bg-green {
-    background-color: #153B50;
-}
-.bg-light-grey {
-    background-color: rgba(0, 0, 0, 0.05);
-}
-.bg-light-blue {
-    background-color: #E6F1FD;
-}
-
-.bg-green button {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
-button a {
-    color: #FFFEEB;
-}
-
-button {
-    padding: 10px;
-    font-size: 1rem;
-    background-color: #429EA6;
-    border: 0;
+    font-family: 'merriweather';
     border-radius: 8px;
-    font-weight: 700;
+    text-align: center;
+    padding: 12px 32px;
+    margin: 0;
+    position: absolute;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+      
+.PhotoAboutMe { grid-area: PhotoAboutMe; }    
+}
+
+#work {
+    background-color: #3D5A80;
+}
+.caseStudies {
+    background-color: #3D5A80;
+    height:fit-content;
+    padding: 20px;
+}
+
+.text-center { 
+    text-align: center;
+    color: white;
+    font-family: 'merriweather';
+    font-size: 64px;
+    padding: 5%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 0px;
+    grid-template-areas:
+      "reeliiImg reeliiTxt"
+      "navyImg navyTxt"
+      "petImg PetTxt";
+  }
+
+#boxCenter {
+    margin-left: 10%;
+    margin-right: 10%;    
+  }
+  
+.reeliiImg { 
+    grid-area: reeliiImg; 
+    background-image: url("../images/Reelii/reeliiImg.png");
+    background-size: cover;
+    min-height: 28vw;    
+}
+  
+.reeliiTxt,  .navyTxt, .PetTxt{ 
+    grid-area: reeliiTxt; 
+    background-color: white;
+    font-family: 'merriweather';
+    font-size: 20px;
+    font-style: bold;
+    padding: 2%;
+    width: 320px;
+}
+
+.reeliiTxt h3, .navyTxt h3, .PetTxt h3 {
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    text-align: center;
+}
+.reeliiTxt p, .navyTxt p, .PetTxt p {
+    font-family: 'merriweather';
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.leading-text {
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 16px;
+    text-align: left;
+}
+  
+.navyImg { 
+    grid-area: navyImg; 
+    background-image: url("../images/navy2.png");
+    background-size: cover;
+    min-height: 28vw;
+}
+  
+.navyTxt { 
+    grid-area: navyTxt; 
+}
+  
+.petImg { 
+    grid-area: petImg; 
+    background-image: url("../images/pet.png");
+    background-size: cover;
+    min-height: 28vw;
+}
+  
+.PetTxt { 
+    grid-area: PetTxt; 
+}
+  
+.readMore {
+    padding: 50px;
+}
+  .btnStudy {
+    background-color: #DC0073;
+    color: white;
+    font-family: 'merriweather';
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px 32px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.viewCaseStudy {
+    background-color: #F9DCDC;
+    color: #DC0073;
+    font-family: 'merriweather';
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 18px;
+    margin: 0;
+    margin-top: 2vw;
+    position: absolute;
+    left: 68%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     cursor: pointer;
-}   
+
+}
+
+/*footer*/
+    .footer {
+        height: 20vw;
+        background-color: #DC0073;
+    }
+
+    .getInTouch {
+        color: white;
+        font-family: 'merriweather';
+        font-size: 50px;
+        text-align: center;
+        padding: 5%;
+    }
+    
+    .navbarCopyright {
+        background-color: #DC0073;
+    }
+    .copyright {
+        text-align: left;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        color: white;
+    }
+    .icon {
+        padding: 20px;
+    }
+
+    .iconsLinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+

@@ -1,39 +1,77 @@
-/*Navigation*/
-.nav-item a {
-    color: black;
-    text-decoration: none;
-}
+/*Navigation*/ 
 
 .navbar {
-    background-color: white;
-}
-
-.logo a {
-    color: rgb(193, 124, 116);
-}
-
-.navbar {
-    background-color: white;
+  background-color: #F9DCDC;
+  height: fit-content;
 }
 .nav-item a {
-    font-family: 'Merriweather';
-    color: #153B50;
+  text-decoration: none;
+  font-family: 'Merriweather';
+  color: #59656F;
 }
 
 .nav-item a:hover {
-    color: #CC8B86;
-  }
+  color: #DC0073;  
+}
+.navbar p {
+  color: #59656F;
+  font-weight:500;
+  font-size: 60px;
+  font-family: 'montserrat';
+  letter-spacing: 16px;
+}
 
 
 /*main*/
 
 body {
-    background-color: #EDD7D4;
+    background-color:#F9DCDC;
     }
+.ellipseCindy {
+  width: 35vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+}
 
-.Container {
+.AboutMe {
+  width: 800px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.AboutMe p {
+  font-family: 'merriweather';
+  font-size: 20px;
+  color: #001858;
+  text-align: justify;
+}
+.AboutMe h4 {
+  color: #DC0073;
+  font-family: 'merriweather';
+  font-size: 26px;
+  padding: 2%;
+}
+.resume, .getinTouch {
+  font-family: 'merriweather';
+  font-size: 20px;
+  color: #DC0073;
+}
+a:hover {
+  color:#59656F;
+  text-decoration: none;
+}
+
+.links{
+  margin-bottom: 10%;
+}
+
+
+/*.Container {
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     width: 1000px;
     margin: 0 auto;
        
@@ -81,24 +119,35 @@ body {
       color: #6E7A87;
   }
 
-  #footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:60px;  
-  }
-
-  .copyright {
-    font-family: 'Merriweather'
+ /*footer*/
+ .footer {
+  height: 20vw;
+  background-color: #DC0073;
 }
 
-.hero {
-  background-color: #153B50;
-  height: 600px;
+.getInTouch {
+  color: white;
+  font-family: 'merriweather';
+  font-size: 64px;
+  text-align: center;
+  padding: 5%;
 }
 
-/*<footer id="footer">
-  <span class="copyright">
-    © 2021 Cindy Lao
-  </span>
-</footer>*/
+.navbarCopyright {
+  background-color: #DC0073;
+}
+.copyright {
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  color: white;
+}
+.icon {
+  padding: 20px;
+}
+
+.iconsLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
